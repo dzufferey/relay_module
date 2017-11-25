@@ -198,7 +198,7 @@ $EndComp
 Wire Wire Line
 	4550 3850 4550 4000
 Wire Wire Line
-	4550 4400 3950 4400
+	3950 4400 4550 4400
 Wire Wire Line
 	3950 4200 4250 4200
 Wire Wire Line
@@ -212,4 +212,21 @@ Wire Wire Line
 	3950 2850 4550 2850
 Wire Wire Line
 	4550 2850 4550 3250
+$Comp
+L R R3
+U 1 1 5A0727D4
+P 4350 4550
+F 0 "R3" V 4430 4550 50  0000 C CNN
+F 1 "R" V 4350 4550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4280 4550 50  0001 C CNN
+F 3 "" H 4350 4550 50  0001 C CNN
+	1    4350 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 4200 4200 4550
+Connection ~ 4200 4200
+Wire Wire Line
+	4500 4550 4500 4400
+Connection ~ 4500 4400
 $EndSCHEMATC
